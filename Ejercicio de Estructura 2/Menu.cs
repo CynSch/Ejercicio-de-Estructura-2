@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_de_Estructura_2
 {
-    internal class Menu
+    public class Menu
     {
         public static void Listar()
         {
