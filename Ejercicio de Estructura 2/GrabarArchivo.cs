@@ -16,8 +16,8 @@ namespace Ejercicio_de_Estructura_2
             {
                 string linea = auto.Marca + "|"
                     + auto.Modelo + "|"
-                    + auto.Año + "|"
-                    + auto.Precio;
+                    + auto.Año.ToString() + "|"
+                    + auto.Precio.ToString();
                 writer.WriteLine(linea);
             }
             Console.WriteLine("Archivo guardado exitosamente");

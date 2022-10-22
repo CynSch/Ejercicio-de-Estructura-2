@@ -13,6 +13,5 @@ namespace Ejercicio_de_Estructura_2
         public string Modelo; //max 30 caracteres
         public int Año; // 4 cifras entre 2000 y 2021
         public decimal Precio; //mayor a 0
-
     }
 }
